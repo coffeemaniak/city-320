@@ -253,3 +253,29 @@ img {
   font-size: 15px;
   outline: none;
 }
+input[type='checkbox'] {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.checkbox-label {
+  display: block;
+}
+.checkbox-label:last-child {
+  margin-bottom: 30px;
+}
+.pagination {
+  list-style: none;
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.pagination li {
+  display: inline-block;
+  text-decoration: underline;
+}
+li.active {
+  color: #05519c;
+  text-decoration: none;
+}
