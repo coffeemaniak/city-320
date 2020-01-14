@@ -1,0 +1,65 @@
+.main-logo {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.main-toggle {
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: #ffd94a;
+    position: relative;
+    top: -16px;
+    outline: none;
+}
+
+.main-toggle span,
+.main-toggle span::before,
+.main-toggle span::after {
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    display: block;
+}
+
+.main-toggle span::before,
+.main-toggle span::after {
+    content: "";
+}
+
+.main-toggle span::before {
+    transform: translateY(-5px);
+}
+
+.main-toggle span::after {
+    transform: translateY(5px);
+}
+
+.main-nav {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-name {
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 20px 20px 20px;
+}
+
+.common-button {
+    background-color: #ffd94a;
+    width: 280px;
+    height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-left: 20px;
+    outline: none;
+    box-shadow: 0 2px 0 0 #dca816;
+}
